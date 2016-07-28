@@ -1,0 +1,49 @@
+1
+ab
+file1
+file2.csv
+first.csv
+out.txt
+test.sh
+total 28
+drwxrwxr-x 3 rs rs 4096 Jul 28 18:07 .
+drwxrwxr-x 3 rs rs 4096 Jul 27 16:36 ..
+drwxrwxr-x 2 rs rs 4096 Jul 27 16:28 1
+-rw-rw-r-- 1 rs rs    0 Jul 27 15:10 ab
+-rw-rw-r-- 1 rs rs  244 Jul 27 16:32 file1
+-rw-rw-r-- 1 rs rs  111 Jul 27 16:58 file2.csv
+-rw-rw-r-- 1 rs rs    0 Jul 27 14:59 first.csv
+-rw-rw-r-- 1 rs rs   47 Jul 28 18:07 out.txt
+-rwxrw-r-- 1 rs rs  109 Jul 28 18:07 test.sh
+total 28
+drwxrwxr-x 3 rs rs 4096 Jul 28 18:07 .
+drwxrwxr-x 3 rs rs 4096 Jul 27 16:36 ..
+drwxrwxr-x 2 rs rs 4096 Jul 27 16:28 1
+-rw-rw-r-- 1 rs rs    0 Jul 27 15:10 ab
+-rw-rw-r-- 1 rs rs  244 Jul 27 16:32 file1
+-rw-rw-r-- 1 rs rs  111 Jul 27 16:58 file2.csv
+-rw-rw-r-- 1 rs rs    0 Jul 27 14:59 first.csv
+-rw-rw-r-- 1 rs rs  441 Jul 28 18:08 out.txt
+-rwxrw-r-- 1 rs rs  109 Jul 28 18:07 test.sh
+total 20
+drwxrwxr-x 2 rs rs 4096 Jul 27 16:28 1
+-rw-rw-r-- 1 rs rs    0 Jul 27 15:10 ab
+-rw-rw-r-- 1 rs rs  244 Jul 27 16:32 file1
+-rw-rw-r-- 1 rs rs  111 Jul 27 16:58 file2.csv
+-rw-rw-r-- 1 rs rs    0 Jul 27 14:59 first.csv
+-rw-rw-r-- 1 rs rs  835 Jul 28 18:08 out.txt
+-rwxrw-r-- 1 rs rs  109 Jul 28 18:07 test.sh
+total 20
+drwxrwxr-x 2 rs rs 4096 Jul 27 16:28 1
+-rw-rw-r-- 1 rs rs    0 Jul 27 15:10 ab
+-rw-rw-r-- 1 rs rs  244 Jul 27 16:32 file1
+-rw-rw-r-- 1 rs rs  111 Jul 27 16:58 file2.csv
+-rw-rw-r-- 1 rs rs    0 Jul 27 14:59 first.csv
+-rw-rw-r-- 1 rs rs 1150 Jul 28 18:08 out.txt
+-rwxrw-r-- 1 rs rs  109 Jul 28 18:07 test.sh
+drwxrwxr-x 2 rs rs 4096 Jul 27 14:59 xx
+drwxrwxr-x 3 rs rs 4096 Jul 27 14:58 xx
+-rw-rw-r-- 1 rs rs 0 Jul 27 15:00 file1
+-rw-rw-r-- 1 rs rs 0 Jul 27 14:59 file2
+-rw-rw-r-- 1 rs rs 0 Jul 27 14:59 file3
+-rw-rw-r-- 1 rs rs 0 Jul 27 14:59 first.csv

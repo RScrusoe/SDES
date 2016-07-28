@@ -1,0 +1,6 @@
+drwxrwxr-x 2 rs rs 4096 Jul 27 14:59 xx
+drwxrwxr-x 3 rs rs 4096 Jul 27 14:58 xx
+-rw-rw-r-- 1 rs rs 0 Jul 27 15:00 file1
+-rw-rw-r-- 1 rs rs 0 Jul 27 14:59 file2
+-rw-rw-r-- 1 rs rs 0 Jul 27 14:59 file3
+-rw-rw-r-- 1 rs rs 0 Jul 27 14:59 first.csv
