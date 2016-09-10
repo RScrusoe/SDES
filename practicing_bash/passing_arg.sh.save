@@ -1,0 +1,5 @@
+#!/bin/bash
+echo $1 $2 $3 "are 3 arguments passed"
+args=("$@")
+echo ${args[0]} ${args[1]} $args{[2]} '
+These args are stored in args=("$@")'

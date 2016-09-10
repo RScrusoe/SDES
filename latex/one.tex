@@ -1,0 +1,72 @@
+\documentclass[12pt,a4paper,draft]{report}
+
+\title{FIRST}
+\author{Rahul}
+\date{29th August 2016}
+
+%Preamble
+\usepackage{graphics}
+%\usepackage{listings}
+\usepackage{color}
+\begin{document}
+
+\maketitle
+\chapter{Chapter 1}
+\section{First Section}
+
+My name is Crusoe! % comment
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{subsection} \label{our:name:sec1}
+2nd line.
+\subsubsection{subsubsection}
+here it is..
+
+\#	%special characters ^ $ * etc.
+\& \textbackslash
+\\	New line by double slash
+\section{Second Section}
+This is latex.
+covered in Section \ref{our:name:sec1}
+
+\section*{Non indexed section}
+``This is quoted line"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+For bold \textbf{This is Bold}
+
+
+\begin{flushright}
+This is on right side
+\end{flushright}
+
+
+Enumerate
+\begin{enumerate}
+    \item Physics
+    \item Math
+    \item Biology
+\end{enumerate}
+
+Bullets
+\begin{itemize}
+    \item Pudhari
+    \item Esakal
+    \item Lokmat
+    \item Loksatta
+\end{itemize}
+
+
+\footnote{This is footnote}
+
+%\lstset{language=Python, keywordstyle=\color{blue}}
+
+for i in range(100):
+    print(i**2)
+%\end{lstlistings}
+
+
+\end{document}
+
+
+Everything after end is ignored
+

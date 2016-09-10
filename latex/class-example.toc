@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Test section}{6}{0}{1}
+\beamer@sectionintoc {2}{Another Test section}{6}{0}{2}
+\beamer@sectionintoc {3}{New section added section}{8}{0}{3}
+\beamer@sectionintoc {4}{First section}{8}{0}{4}
+\beamer@sectionintoc {6}{Third section}{8}{0}{5}

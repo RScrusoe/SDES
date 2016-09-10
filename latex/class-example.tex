@@ -1,0 +1,239 @@
+\documentclass[12pt,a4paper]{beamer}
+
+
+% Preamble
+
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{longtable}
+
+\renewcommand{\int}{\mathbb{Z}}
+\newcommand{\sqrtntwo}{\sqrt[n]{2}}
+
+\begin{document}
+
+\tableofcontents
+
+\includeonly{file}
+
+\chapter{First chapter}
+
+Excel any spreadsheet  allows saving into csv file
+
+
+Square root of $2$ is $\sqrt{2}$ and $n$th root of $2$ is $\sqrt[n]{2}$
+
+\cite{suggestivename:someother} 
+
+\include{chap1}
+
+\include{chap2}
+
+$\mathbb{Z}$ is the set of integers $\alpha$ 
+
+$\int$
+
+$\sqrtntwo$
+
+$\sqrtntwo$
+
+$\sqrtntwo$
+
+$\sqrtntwo$
+
+The total of $1$ to $n$ is $\sum_1^n$ is
+\[
+\sum_1^n 
+\int_1^n 
+\]
+Here are some fractions  
+Mathmode $mathmode figure $  {\it figure e f g h}
+\[
+\mbox{For all $x$ we try} math~mode
+\]
+
+  % Latex questions: listings color in python
+  % Figure: left/right/center   or page top, bottom? 
+
+$5^{p^{7^{4_6}}}$
+
+\[
+\left[ \begin{array}{rrr}
+4 & 4  &5 \\ 6 & -4 & p \end{array} \right\} 
+\]
+
+We have some text and some formula $E = m c^2$ 
+\[
+E =  m c ^ 2 
+\]
+
+\begin{equation} \label{equation:einstein}
+E = m c^2 
+\end{equation}
+This is formula \ref{equation:einstein}.
+
+\vspace*{2cm}
+
+\begin{table}
+\caption{My favorite table} \label{table:ten}
+\begin{longtable}{|l|c|p{4cm}|}
+\hline  \\ % [-3mm]
+Header row's first column & 
+Header row's second column & 
+Header row's third column \\
+\hline \hline
+First column & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column second row & second column & third column \\
+First column & second column & third column \\ \hline
+\end{longtable}
+\end{table}
+
+\section{Test section}
+
+\chapter{Second chapter}
+
+\section{Another Test section}
+
+\begin{figure}[htb!] 
+\includegraphics[angle=45, width=6cm]{test-image.png}
+\caption{This is our figure.} 
+\label{ourfigure}
+\end{figure}
+
+Things are explained in the figure (Figure \ref{ourfigure} )
+
+\lstset{language=Python, keywordstyle=\color{red}}
+\begin{lstlisting}
+
+for i = 1:5
+   print i
+
+\end{lstlisting}
+
+\vspace{5cm}
+
+\verb*&This on  e wi ll come verbatim&
+
+\noindent
+This one will not come verbatim
+
+
+
+``For double quotes."
+
+For {\em emphasis}
+
+Another way
+For \emph{emphasis}
+
+For bold \textbf{bold}
+
+Or similarly {\bf this one is bold}
+
+\begin{flushright}
+This part will be flushed right
+\end{flushright}
+
+
+
+\begin{enumerate}
+\item This part will be centered
+
+\item This part also will be centered\footnote{Text for footnote
+\label{footnote-my-name}. No section labels here! }
+
+\item This part also \texttt{will be centered}
+\item More items. This was explained in footnote number 
+\ref{footnote-my-name} 
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{New section added section}
+
+The first section got re-introduced now.
+
+\section{First section} \label{our:name:section1}
+
+Here comes the content.
+IT was indeed discussed right here.
+
+Here comes the content.
+
+\section*{SEcond section}
+
+This was already discussed in Section \ref{our:name:section1}
+
+There are special symbols:
+
+\$ \% \& \# \\ does not give a backslash
+
+\section{Third section}
+
+\textbackslash ~ gives
+
+$ math mode$ 
+
+%  means comment
+
+
+$\backslash$ gives
+
+\begin{thebibliography}{10}
+
+\bibitem[Al1]{suggestivename:FOSSEE} Author name, initials, Proceedings of FOSSEE conference
+
+
+\bibitem[Al2]{suggestivename:someother} Author different, initials, Proceedings of another conference
+\end{thebibliography}
+
+\end{document}
+
+This is ignored by latex
